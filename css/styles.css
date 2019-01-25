@@ -1,0 +1,40 @@
+#about, #projects, #contact {
+  height: 700px;
+}
+
+header {
+  height: 800px;
+  background: url('../img/yakisugi.jpg');
+  background-size: cover;
+}
+
+header h1 {
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #bbc085;
+    padding: 65px 0 65px 25px;
+}
+
+nav {
+    float: right;
+    padding: 75px 25px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #bbc085;
+    padding-left: 80px;
+}
+
+header h2 {
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #F0F8FF;
+    padding: 20px 0 20px 25px;
+}
