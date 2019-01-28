@@ -1,18 +1,19 @@
 #about, #projects, #contact {
-  height: 700px;
+  height: 680px;
 }
 
 header {
-  height: 800px;
+  height: 850px;
   background: url('../img/yakisugi.jpg');
   background-size: cover;
 }
 
 header h1 {
-    font-family: 'Lora', serif;
-    font-size: 30px;
-    color: #bbc085;
-    padding: 65px 0 65px 25px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 36px;
+    font-weight: bold;
+    color: #d6d6c2;
+    padding: 55px 0 65px 25px;
 }
 
 nav {
@@ -25,16 +26,52 @@ nav ul li{
 }
 
 nav ul li a {
+    font-family: 'Architects Daughter', cursive;
     text-transform: uppercase;
-    font-size: 18px;
-    color: #bbc085;
+    font-size: 24px;
+    font-weight: bold;
+    color: #d6d6c2;
     padding-left: 80px;
 }
 
 header h2 {
-    font-family: 'Lora', serif;
-    font-size: 72px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+    font-size: 80px;
     line-height: 80px;
     color: #F0F8FF;
-    padding: 20px 0 20px 25px;
+    padding: 20px 0px 20px 25px;
+}
+
+header img#profile-image {
+  float: right;
+  margin: 50px;
+  border-style: ridge;
+  border-color: darkgrey;
+  border-width: thick;
+}
+
+#about {
+  padding: 75px 60px 0px 60px;
+  background: url('../img/pallet.jpg');
+  background-size: cover;
+}
+
+#about h2{
+  font-family: 'Neucha', cursive;
+  font-size: 40px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+#about p {
+  font-family: 'Major Mono Display', monospace;
+  font-size: 24px;
+}
+
+#projects {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 80px 100px 80px;
 }
